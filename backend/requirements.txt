@@ -46,7 +46,6 @@ urllib3==2.0.4
 Werkzeug==3.0.0
 spacy
 spacy-lookups-data
-flask
-flask_cors
 requests
 scikit-learn
+gunicorn==20.1.0
