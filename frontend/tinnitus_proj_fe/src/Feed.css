@@ -1,0 +1,176 @@
+.article-list{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin: 1%;
+}
+
+
+.Feed{
+    text-align: center;
+    justify-content: center;
+}
+
+#feed-main-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+#selected-kw-bold{
+    font-weight: bold;
+    color: #f24a6c;
+}
+#suggested-keywords-feed{
+    margin-left: 2%;
+    color: #f24a6c;
+    margin-top: 2%;
+}
+
+#suggested-keywords-feed > ul{
+    align-items: start;
+    justify-content:flex-start;
+    display: grid;
+}
+
+#loading-text{
+    color: #0d1d72;
+}
+
+#tinnitus-insights{
+    color: #0d1d72;
+    font-weight: 500;
+    font-size:3vw;
+    font-family: 'DM Serif Display', serif;
+}
+
+#tinnitus-insights-exp, 
+#display-article-p p{
+    color: #0d1d72;
+}
+
+#llm-result-container
+{
+    background-color: #8faae189; /* Set your desired background color */
+    border: 2px solid #0d1d72; /* Set your desired border color */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+    padding: 10px; /* Add padding for spacing */
+    margin: 10px; /* Add margin for spacing */
+}
+
+.source {
+    background-color: white; /* Background color */
+    color: #0d1d72; /* Text color */
+    cursor: pointer; /* Change cursor to a pointer on hover */
+    padding: 3px;
+    margin: 1px; /* Add margin for spacing between buttons */
+    text-decoration: none; /* Remove underlines (if any) */
+    display: inline-block; /* Display as inline-block to wrap text */
+    border-radius: 4px; /* Rounded corners */
+    text-align: center; /* Center-align text */
+    font-weight: bold; /* Make text bold */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for color changes */
+  
+    /* Add more styles as needed */
+  }
+  
+  .source:hover {
+    background-color: #f24a6c; /* Change background color on hover */
+    color: white;
+  }
+
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .close-button {
+    background-color: #ddd;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  .close-button:hover {
+    background-color: #ccc;
+  }
+  
+  
+
+.button-css{
+    background-color: #1465ce;
+    padding: 4px 14px;
+    margin: 3px;
+    border-radius: 10px;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0d1d72;
+    font-family: 'Sen', sans-serif;
+}
+
+.button-css:hover {
+    background-color: #0d1d72;
+    color: #ffffff; /* Change the text color */
+}
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999c4;
+  background-color: #ccccccb8;
+  color: #666666b3;
+}
+
+.representsBtn{
+    background-color: #0d1d72;
+    padding: 4px 14px;
+    margin: 3px;
+    border-radius: 20px;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0d1d72;
+    font-family: 'Sen', sans-serif;
+}
+
+#llm-display-p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+.change-role-button {
+    position: relative;
+    background-color: #0d1d72;
+    color: white;
+    border-radius: 10px;
+    padding: 0.5%;
+  }
+
+#choose-represents{
+    background-color: #ececec;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.loader {
+    border: 8px solid #f3f3f3; 
+    border-top: 8px solid #1465ce; 
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

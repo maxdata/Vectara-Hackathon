@@ -1,0 +1,270 @@
+/* #0d1d72
+#f24a6c
+#1465ce
+#E2E8F8
+#8faae1
+#f1a5ae */
+
+#landingimg-wrapper-1{
+    display: flex;
+    flex-direction: row;
+}
+
+#landingimg{
+    margin-left: auto;
+    width: 45%;
+}
+
+#slogan-wrapper{
+ width: 45%;
+ margin-left: 3%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+
+#slogan{
+color: #f24a6c;
+font-size: 4.3vw;
+margin-bottom: 5%;
+font-family: 'DM Serif Display', serif;
+font-weight: 400;
+
+}
+
+#h2-col-chg{
+    color: #0d1d72
+}
+
+#subslogan{
+    color: #0d1d72;
+    font-size: 1.4vw;
+    font-family: 'Sen', sans-serif;
+}
+
+#about-wrapper-2{
+    background-color: #0d1d72;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#about-1,
+#about-2, 
+#about-3{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    background-color: #07103c;
+    border-radius: 20px;
+    padding: 3%;
+}
+
+#about-1-title,
+#about-2-title,
+#about-3-title{
+    color: #f24a6c;
+    font-size: 2.6vw;
+    font-family: 'DM Serif Display', serif;
+}
+
+
+#tinnitus-wrapper-2{
+    display: flex;
+    flex-direction: row;
+}
+
+#tinnitusimg{
+    width: 65%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+#tinnitus-wrapper{
+    width: 30%;
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#tinnitus-wrapper-2-1{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:#0d1d72;
+}
+
+#tinnitus-title,
+#articlefeed-title{
+    color: #f24a6c;
+    font-size: 3vw;
+    font-family: 'DM Serif Display', serif;
+}
+
+#tinnitus-sub-title{
+    color: #0d1d72;
+    font-size: 1.5vw;
+}
+
+
+#tinnitusimg2{
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+#tinnitus-wrapper2{
+position: relative;
+}
+
+#tinnitus-title2{
+    color: #f24a6c;
+    font-size: 3vw;
+    font-family: 'DM Serif Display', serif;
+    margin-left: 5%;
+    position: absolute;
+    margin-top: 7%;
+}
+
+#tinnitus-sub-title2{
+    margin-left: 8%;
+    position: absolute;
+    margin-top: 12%;
+    width: 50%;
+
+}
+#details-wrapper-3{
+    display: flex;
+    background-color: #E2E8F8;
+    flex-direction: row;
+}
+
+#details-1{
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#articlefeedmockup{
+    margin: 5%;
+    width: 40%;
+}
+
+#articlefeed-wrapper{
+    width: 40%;
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#mock-up-wrapper{
+    position: relative;
+    width: 45%;
+}
+
+#articlefeedmockup {
+    width: 100%;  
+    height: 30vw;
+    z-index: 1;
+    position: relative;
+  }
+
+  #articlefeed-desc{
+    color: #0d1d72;
+  }
+  
+  #tinnitusArticleGif {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 9%;
+    margin-left: 5.3%;
+    width: 97.5%;
+  }
+
+  #support-forum-title,
+  #medimap-title{
+        color: #f24a6c;
+        font-size: 3vw;
+        width: 40%;
+        font-family: 'DM Serif Display', serif;
+        margin-left: 4%;
+        position: absolute;
+        margin-top: 2%;
+        text-align: center;
+  }
+
+  #support-forum-desc{
+    color: #0d1d72;
+    margin-top: 12%;
+    width: 40%;
+    padding-left: 6%;
+    text-align: center;
+  }
+  #details-2{
+    display: flex;
+    flex-direction: row;
+    background-color: #E2E8F8;
+  }
+
+  #tinnitusForum{
+    width: auto;
+    max-width: 50%;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  #details-wrapper-5{
+    display: flex;
+    flex-direction: row;
+    background-color: #E2E8F8;
+    position: relative;
+  }
+  #medimapscreenshot1{
+    width: 40%;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-left: 2%;
+ 
+  }
+  #medimapscreenshot2{
+    width: 10%;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 30%;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  
+  }
+
+  #medimap-title{
+    margin-left: 49%;
+  }
+
+  #medimap-desc{
+    color: #07103c;
+    width: 50%;
+    margin-left: 45%;
+    margin-top: 12%;
+    text-align: center;
+  }
