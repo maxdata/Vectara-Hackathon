@@ -46,7 +46,7 @@ function Feed() {
 
   useEffect(() => {
     axios
-      .get('http://127.0.0.1:8000/api/article/',
+      .get('https://frozen-fortress-37540-a8f70bce221d.herokuapp.com/api/article/',
       {
         params: {
             page: currentPage,
@@ -66,7 +66,7 @@ function Feed() {
 
   const filterArticlesByKeyword = (keyword) => {
     axios
-      .get(`http://127.0.0.1:8000/api/article/filter/${keyword}`)
+      .get(`https://frozen-fortress-37540-a8f70bce221d.herokuapp.com/api/article/filter/${keyword}`)
       .then((response) => {
         setFilteredArticles(response.data);
         setIsFiltered(true);

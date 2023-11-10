@@ -46,7 +46,7 @@ function App() {
   }, []); 
 
   // function createUser(formData) {
-  //   const apiUrl = 'http://127.0.0.1:8000/api/user/create_user/';
+  //   const apiUrl = 'https://frozen-fortress-37540-a8f70bce221d.herokuapp.com/api/user/create_user/';
   //   axios
   //     .post(apiUrl, formData)
   //     .then((response) => {
@@ -67,7 +67,7 @@ function App() {
       last_name: userInfoData.user_metadata.last_name,
     };
 
-    const apiUrl = 'http://127.0.0.1:8000/api/user/create_user/';
+    const apiUrl = 'https://frozen-fortress-37540-a8f70bce221d.herokuapp.com/api/user/create_user/';
     axios
       .post(apiUrl, formData)
       .then((response) => {
